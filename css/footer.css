@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#footer {
+    margin-top: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 8vh;
+    background-color: lightblue;
+}
+
+#footer #f1 {
+    align-self: center;
+    justify-self: center;
+    margin: 0;
+}
+
+#footer #f2 {
+    align-self: center;
+    justify-self: center;
+}
+
+#footer #f2 nav {
+    display: grid;
+    align-items: center;
+    justify-self: center;
+}
+
+footer nav a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}

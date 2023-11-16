@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html body {
+    padding: 0; 
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+#content{
+    min-height: 77vh;
+}
+
+.post {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.post-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.post-description {
+    font-size: 16px;
+    color: #666;
+}
+
+
+#form {
+    background-color: gray;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 30vh;
+}
+
+#mPosts {
+    min-height: 77vh;
+}
+
+#postTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: gray;
+}
+
+footer{
+    margin-top: auto;
+}

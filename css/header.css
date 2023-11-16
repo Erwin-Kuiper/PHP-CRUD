@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 15vh;
+    background-color: lightblue;
+}
+
+#header article img {
+    height: 100%;
+}
+
+#navAdmin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2vw;
+}
+
+#navUser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
